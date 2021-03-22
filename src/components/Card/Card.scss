@@ -1,0 +1,31 @@
+.card {
+  width: 60px;
+  height: 100px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  position: relative;
+  font-weight: 'bold';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.number-top {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.number-bottom {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  transform: rotate(180deg);
+}
